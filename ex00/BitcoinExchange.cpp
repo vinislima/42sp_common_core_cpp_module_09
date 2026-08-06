@@ -6,7 +6,7 @@
 /*   By: vinda-si <vinda-si@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/05 21:58:58 by vinda-si          #+#    #+#             */
-/*   Updated: 2026/08/05 22:43:02 by vinda-si         ###   ########.fr       */
+/*   Updated: 2026/08/05 23:06:15 by vinda-si         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ BitcoinExchange::~BitcoinExchange() {}
 
 bool BitcoinExchange::isValidDate(const std::string& date) const
 {
-	if (date.length() != 10 || date[4] != '_' || date[7] != '-')
+	if (date.length() != 10 || date[4] != '-' || date[7] != '-')
 		return false;
 
 	int	year = std::atoi(date.substr(0, 4).c_str());
