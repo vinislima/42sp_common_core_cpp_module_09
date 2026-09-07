@@ -6,7 +6,7 @@
 #    By: vinda-si <vinda-si@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/08/09 21:42:31 by vinda-si          #+#    #+#              #
-#    Updated: 2026/08/09 21:45:40 by vinda-si         ###   ########.fr        #
+#    Updated: 2026/09/07 20:17:21 by vinda-si         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -28,6 +28,6 @@ clean:
 fclean:	clean
 		rm -f $(NAME)
 
-re:	fclean
+re:	fclean all
 
 .PHONY: all clean fclean re
