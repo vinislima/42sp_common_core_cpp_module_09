@@ -6,7 +6,7 @@
 /*   By: vinda-si <vinda-si@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/05 21:49:52 by vinda-si          #+#    #+#             */
-/*   Updated: 2026/08/05 22:24:19 by vinda-si         ###   ########.fr       */
+/*   Updated: 2026/09/07 20:16:30 by vinda-si         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@
 #include <fstream>
 #include <sstream>
 #include <cstdlib>
+#include <cctype>
 
 class BitcoinExchange
 {
